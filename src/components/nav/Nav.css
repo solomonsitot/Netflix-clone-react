@@ -1,0 +1,36 @@
+.nav-wrapper{
+    position:fixed;
+    padding: 23px;
+    padding-left: 10px;
+    width: 100%;
+    z-index: 3;
+}
+.nav-black{
+    transition: 0.3s;
+    position: fixed;
+    padding: 24px;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: black;
+}
+.logo{
+    height: 32px;
+    padding-left: 0px;
+}
+.nav-link-wrapper{
+    display: flex;
+    
+    justify-content: space-between;
+}
+ul{
+   list-style: none;
+    display: flex;
+    gap: 35px;
+}
+.link-list a, .link-list2 a{
+    text-decoration: none;
+    color: white;
+}
+.link-list2 img{
+    height: 25px;
+}

@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+.img-wrapper{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;  
+}
+.img-wrapper::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    padding: 0px;
+    border-radius: 0px;
+    border-color: black;
+}
+.card-img{
+    width: 100%;
+    border-radius: 0px;
+}
+.card-img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.title{
+    color: white;
+    font-size: bolder;
+    padding: 6px;
+    padding-left: 20px;
+}
